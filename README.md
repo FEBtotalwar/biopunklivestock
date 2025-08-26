@@ -10,3 +10,5 @@ Biopunk Livestock adds bio-engineered animals. These creatures have been created
 
 Art, XML code, Writing: FEB
 Rimworld: Tynan Sylvester and Ludeon Studios
+
+License: CC BY-ND 4.0
