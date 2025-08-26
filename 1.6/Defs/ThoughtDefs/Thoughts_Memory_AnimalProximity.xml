@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThoughtDef>
+    <defName>FEB_ToxogaThoughtPositive</defName>
+    <durationDays>1</durationDays>
+	<requiredTraits>
+	  <li>Kind</li>
+	</requiredTraits>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>toxoga proximity</label>
+		<description>Such a poor creature. I must keep myself strong if I want to help.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  	<ThoughtDef>
+    <defName>FEB_ToxogaThoughtNeutral</defName>
+    <durationDays>1</durationDays>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+	  <li>Kind</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>toxoga proximity</label>
+		<description>I am glad we've been able to keep it alive and safe.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>FEB_ToxogaThoughtNegative</defName>
+    <durationDays>1</durationDays>
+	<requiredTraits>
+	  <li>Psychopath</li>
+	</requiredTraits>
+    <nullifyingTraits>
+      <li>Kind</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>toxoga proximity</label>
+		<description>This thing creeps me out! Get it away from me!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

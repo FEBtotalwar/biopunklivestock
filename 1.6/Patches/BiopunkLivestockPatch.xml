@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Core</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			
+				<!-- Caravan animals -->
+			
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert" or defName="TemperateForest" or defName="BorealForest" or defName="TemperateSwamp" or defName="ColdBog" or defName="Tundra"]/allowedPackAnimals</xpath>
+                    <value>
+						<li>FEB_Ferrohorn</li>
+                    </value>
+                </li>				
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				
+				<!-- Wild animal destribution -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName = "BorealForest" or defName = "TemperateForest"]/pollutionWildAnimals</xpath>
+					  <value>
+						<FEB_Leadbelly>0.3</FEB_Leadbelly>
+						<FEB_Toxoga>0.05</FEB_Toxoga>
+					  </value>
+				</li> 
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName = "Tundra" or defName = "ColdBog" or defName = "TemperateSwarm"]/pollutionWildAnimals</xpath>
+					  <value>
+						<FEB_Leadbelly>0.15</FEB_Leadbelly>
+						<FEB_Toxoga>0.1</FEB_Toxoga>
+					  </value>
+				</li> 							
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/pollutionWildAnimals</xpath>
+					  <value>
+						<FEB_Leadbelly>0.2</FEB_Leadbelly>
+						<FEB_Toxoga>0.05</FEB_Toxoga>
+					  </value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Odyssey</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			
+				<!-- Caravan animals -->
+			
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="Grasslands"]/allowedPackAnimals</xpath>
+                    <value>
+						<li>FEB_Ferrohorn</li>
+                    </value>
+                </li>
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="Scarlands"]/allowedPackAnimals</xpath>
+                    <value>
+						<li>FEB_Ferrohorn</li>
+                    </value>
+                </li>
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="Glowforest"]/allowedPackAnimals</xpath>
+                    <value>
+						<li>FEB_Ferrohorn</li>
+                    </value>
+                </li>		
+			</operations>
+		</match>	
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Odyssey</li>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				
+				<!-- Wild animal destribution -->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/BiomeDef[defName = "Grasslands"]/pollutionWildAnimals</xpath>
+					  <value>
+						<FEB_Leadbelly>0.3</FEB_Leadbelly>
+						<FEB_Toxoga>0.15</FEB_Toxoga>
+					  </value>
+				</li>		
+			</operations>
+		</match>	
+	</Operation>
+	
+</Patch>
+

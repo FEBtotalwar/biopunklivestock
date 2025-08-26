@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Statiomunda -->
+
+  <BackstoryDef>
+    <defName>FEB_StatiomundaChild01</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_StatiomundaChild01</identifier>  
+    <slot>Childhood</slot>  
+    <title>wardworld sheperd</title>  
+    <titleShort>wardworld sheperd</titleShort>  
+    <description>[PAWN_nameDef] grew up on a sanitized wardworld. [PAWN_pronoun] tended the gentle herds and looked after the frail residents roaming cold beaches and sun-bleached valleys.</description>  
+    <skillGains>
+      <Plants>2</Plants>    
+      <Animals>4</Animals>    
+      <Medicine>2</Medicine>
+    </skillGains> 
+    <forcedTraits>
+      <Immunity>-1</Immunity>
+    </forcedTraits> 	
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags> 
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>	
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>FEB_StatiomundaChild02</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_StatiomundaChild02</identifier>  
+    <slot>Childhood</slot>  
+    <title>junior nurse</title>  
+    <titleShort>junior nurse</titleShort>  
+    <description>[PAWN_nameDef] had to fill the position of [PAWN_possessive] deceased parent as a nurse in one of the wardworld sanitoriums. [PAWN_pronoun] soon developed into a professional, but constant pressure and responsibility left [PAWN_nameDef] a bit psychologically unstable.</description>  
+    <skillGains>       
+      <Medicine>5</Medicine>
+	  <Social>-2</Social>
+    </skillGains> 
+    <forcedTraits>
+      <Immunity>-1</Immunity>
+	  <Neurotic>1</Neurotic>
+    </forcedTraits> 	
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>  
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>FEB_StatiomundaAdult01</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_StatiomundaAdult01</identifier>  
+    <slot>Adulthood</slot>  
+    <title>fragile settler</title>  
+    <titleShort>fragile settler</titleShort>  
+    <description>[PAWN_nameDef] was one of the many shipped off to a wardworld due to [PAWN_possessive] compromised immune system. Upon arrival, [PAWN_possessive] spot in an insurance-covered colony was already occupied by someone else. [PAWN_nameDef] joined a small community of similarly dispossessed to survive out among the bleak, rolling hills.</description>  
+    <skillGains>
+      <Plants>3</Plants>    
+      <Animals>2</Animals>    
+      <Construction>2</Construction>
+	  <Crafting>2</Crafting>
+    </skillGains> 
+    <forcedTraits>
+      <Immunity>-1</Immunity>
+    </forcedTraits> 	
+    <workDisables>None</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>  
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>FEB_StatiomundaAdult02</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_StatiomundaAdult02</identifier>  
+    <slot>Adulthood</slot>  
+    <title>immunologist</title>  
+    <titleShort>immunologist</titleShort>  
+    <description>[PAWN_nameDef] slaved away [PAWN_possessive] university years and landed a job as a medical researcher on a distant wardworld. [PAWN_pronoun] worked at the forefront of innovation, but the not-so-public techniques used in this research left [PAWN_objective] unable to look a patient in the eye ever again.</description>  
+    <skillGains>
+       <Intellectual>6</Intellectual>
+	   <Medicine>5</Medicine>
+	   <Crafting>3</Crafting>
+    </skillGains> 	
+    <workDisables>Social</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>  
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>
+  
+	<!-- Neoshomron -->
+	
+  <BackstoryDef>
+    <defName>FEB_NeoshomronChild01</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_NeoshomronChild01</identifier>  
+    <slot>Childhood</slot>  
+    <title>wide-eyed scavenger</title>  
+    <titleShort>scavenger</titleShort>  
+    <description>[PAWN_nameDef] was raised a nomad among the shelled-out cities of a ruinworld. [PAWN_pronoun] hunted for scrap among the levelled dwellings and mass graves, turning it in for meagre sustenance and tales of loyalty and sacrifice that around the dinner table.</description>  
+    <skillGains>
+       <Crafting>4</Crafting>
+	   <Construction>2</Construction>
+	   <Shooting>3</Shooting>
+	   <Social>3</Social>
+    </skillGains> 	
+    <workDisables>Cleaning, Cooking</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>  
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <defName>FEB_NeoshomronChild02</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_NeoshomronChild02</identifier>  
+    <slot>Childhood</slot>  
+    <title>justiciar trainee</title>  
+    <titleShort>justiciar trainee</titleShort>  
+    <description>[PAWN_nameDef] studied to be a justiciar at one of the religious schools of a ruinworld. [PAWN_pronoun] learned to mediate conflicts and defuse social tension, but learned a little too much of history and lost what little taste for fighting [PAWN_pronoun] had in the first place.</description>  
+    <skillGains>
+       <Social>7</Social>  
+	   <Intellectual>4</Intellectual>
+    </skillGains> 	
+	<forcedTraits>
+      <GreatMemory>0</GreatMemory>
+    </forcedTraits> 
+    <workDisables>Violent</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>  
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>  
+  
+  <BackstoryDef>
+    <defName>FEB_NeoshomronAdult01</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_NeoshomronAdult01</identifier>  
+    <slot>Adulthood</slot>  
+    <title>junkworld navigator</title>  
+    <titleShort>navigator</titleShort>  
+    <description>[PAWN_nameDef] led caravans through precarious ruins of a war-torn world. Somewhere between the crater fields and collapsed hydroponic farms [PAWN_pronoun] gained the grit and the odour of a true survivor.</description>  
+    <skillGains>
+       <Social>2</Social>  
+	   <Crafting>2</Crafting>
+	   <Construction>2</Construction>
+	   <Shooting>3</Shooting>
+	   <Plants>-2</Plants>
+    </skillGains> 	
+    <workDisables>Cleaning</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>  
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>  
+  
+  <BackstoryDef>
+    <defName>FEB_NeoshomronAdult02</defName>  
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>  
+    <identifier>FEB_NeoshomronAdult02</identifier>  
+    <slot>Adulthood</slot>  
+    <title>reclamation officer</title>  
+    <titleShort>reclamation officer</titleShort>  
+    <description>[PAWN_nameDef] served as an overseer of a small-scale wasteland resettlement operation. Maintaining both the fragile ecosystem and dwindling morale was practically impossible, but [PAWN_nameDef] persevered until the bitter end. Dishonorably discharged, [PAWN_possessive] boarded a salvage freighter and left the planet, hoping never to return.</description>  
+    <skillGains>
+       <Plants>6</Plants>
+	   <Social>4</Social>  
+	   <Shooting>4</Shooting>
+	   <Melee>3</Melee>
+    </skillGains> 	
+    <workDisables>Cooking, Cleaning</workDisables>  
+    <requiredWorkTags>None</requiredWorkTags>  
+	<spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+    <shuffleable>True</shuffleable>  
+  </BackstoryDef>  
+  
+</Defs>

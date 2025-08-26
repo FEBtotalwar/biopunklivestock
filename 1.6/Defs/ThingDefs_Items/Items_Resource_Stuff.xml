@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="WoolBase">
+    <defName>FEB_ferrowool</defName>
+    <label>ferrowool</label>
+    <description>Dense wool with high iron content that is more protective than wool from most other farm animals.</description>
+    <possessionCount>30</possessionCount>
+    <statBases>
+	  <StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(77,67,58)</color>
+      <commonality>0.18</commonality>
+    </stuffProps>
+    <graphicData>
+      <color>(77,67,58)</color>
+    </graphicData>
+  </ThingDef>
+  
+<ThingDef ParentName="ResourceBase">
+    <defName>FEB_Toxglass</defName>
+    <label>toxglass</label>
+    <description>Toxic waste and industrial slag compressed into a greenish, layered stone. Prized for its beauty and unique origins.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Toxglass</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>4</MarketValue>
+      <Mass>0.5</Mass>
+      <StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.35</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>0.05</commonality>
+      <color>(90,91,70)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>7</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.3</MaxHitPoints>
+        <WorkToMake>1.2</WorkToMake>
+        <WorkToBuild>2.5</WorkToBuild>
+        <Beauty>1.5</Beauty>
+        <Flammability>0</Flammability>
+        <MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+  
+</Defs>

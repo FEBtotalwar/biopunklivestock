@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef ParentName="MechanitesBase">
+    <defName>FEB_GutMechanites</defName>
+    <label>gut mechanites</label>
+    <description>Semi-coherent mechanites that inhabit the large intestine. Greatly decrease likelihood of food poisoning and help process environmental toxicity, but cause considerable pain. This particular strain comes from the digestive tract of toxin-processing animals.</description>
+    <stages>
+      <li>
+        <label>growing population</label>
+        <painOffset>0.1</painOffset>
+        <foodPoisoningChanceFactor>0.25</foodPoisoningChanceFactor>
+		<statOffsets>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+		</statOffsets>
+      </li>
+      <li>
+        <label>established population</label>
+        <minSeverity>0.5</minSeverity>
+        <painOffset>0.35</painOffset>
+        <foodPoisoningChanceFactor>0.25</foodPoisoningChanceFactor>
+		<statOffsets>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+		</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="ChronicDiseaseBase">
+    <defName>FEB_ScariaNeurosa</defName>
+    <label>scaria neurosa</label>
+    <description>A case of the latent scaria infection localized in the peripheral neurous system. Untransmutable and relatively benign, it results in a great deal of chronic pain.</description>
+    <descriptionShort>A latent scaria infection. Does not affect behavior, but causes pain.</descriptionShort>
+	<initialSeverity>1</initialSeverity>
+    <stages>
+      <li>
+		<painOffset>0.35</painOffset>
+		<minSeverity>1</minSeverity>
+      </li>
+    </stages>
+  </HediffDef>
+  
+	<HediffDef ParentName="ChronicDiseaseBase">
+	<defName>FEB_PsychicBondAnesthesia</defName>
+	<label>psychic bond anesthesia</label>
+	<description>Pscychic anesthesia caused by a strong bond with another creature.</description>
+	<isBad>false</isBad>
+	<stages>
+		<li>
+		  <painOffset>-0.45</painOffset>
+		</li>
+	</stages>
+	</HediffDef>
+  
+</Defs>

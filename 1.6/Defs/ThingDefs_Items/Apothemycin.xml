@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugPillBase">
+    <defName>FEB_Apothemycin</defName>
+    <label>apothemycin</label>
+    <description>Milk of an apotheca prized for it's immunity-boosting and antibiotic qualities. A bi-daily dose will protect the user from most common infectious diseases.</description>
+    <possessionCount>10</possessionCount>
+    <descriptionHyperlinks><HediffDef>FEB_ApothemycinHigh</HediffDef></descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Drugs/Apothemycin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>18</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FEB_ApothemycinHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>950</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>FEB_ApothemycinHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>apothemycin</label>
+    <description>Apothemycin-induced immunity to infectious diseases. Not as long-acting as industrial analogues and requires twice-daily administration.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.45</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <makeImmuneTo>
+            <li>Malaria</li>
+            <li>SleepingSickness</li>
+            <li>Plague</li>
+          </makeImmuneTo>
+        </li>
+      </stages>
+  </HediffDef>
+  
+</Defs>

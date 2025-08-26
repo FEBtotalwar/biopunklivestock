@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>FEB_Gutterhog</defName>
+    <label>gutterhog</label>
+    <description>Gutterhogs were originally bred for minefield cleanup and searching for unexploded ordinance. While most have since gone feral, they still retain a powerful urge to dig up metal objects. For this reason they gravitate towards ruins and are popular pets among scavengers.</description>
+    <statBases>
+      <MoveSpeed>3.9</MoveSpeed>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <MarketValue>350</MarketValue>
+      <FilthRate>16</FilthRate>
+	  <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+      <Wildness>0.4</Wildness>
+    </statBases>
+	<comps>
+		<li Class="VEF.AnimalBehaviours.CompProperties_DigPeriodically">
+			<customThingToDig>			
+				<li>Steel</li>	
+				<li>Steel</li>
+				<li>Steel</li>
+				<li>Steel</li>
+				<li>Steel</li>	
+				<li>Steel</li>
+				<li>Steel</li>
+				<li>Steel</li>	
+				<li>ComponentIndustrial</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+				<li>Plasteel</li>
+				<li>Plasteel</li>
+				<li>Shell_HighExplosive</li>
+			</customThingToDig>
+			<customAmountToDig>				
+				<li>2</li>
+				<li>2</li>
+				<li>2</li>
+				<li>3</li>
+				<li>3</li>
+				<li>3</li>	
+				<li>5</li>
+				<li>7</li>				
+				<li>1</li>
+				<li>3</li>
+				<li>1</li>
+				<li>3</li>
+				<li>5</li>
+				<li>1</li>
+			</customAmountToDig>
+			<ticksToDig>60000</ticksToDig>
+		</li>
+	</comps>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <baseBodySize>1.7</baseBodySize>
+      <baseHealthScale>0.7</baseHealthScale>
+      <baseHungerRate>0.8</baseHungerRate>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Pig</leatherDef>
+      <roamMtbDays>3</roamMtbDays>
+      <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Forage</li>
+      </specialTrainables>
+      <meatLabel>gutterpork</meatLabel>
+      <gestationPeriodDays>5.661</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.7, 1)</li>
+          <li>(2.0, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>12</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3333</minAge>
+          <soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+          <soundDeath>Pawn_Wildboar_Death</soundDeath>
+          <soundCall>Pawn_Wildboar_Call</soundCall>
+          <soundAngry>Pawn_Wildboar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+	  <wildBiomes>
+			<BorealForest>0.15</BorealForest>
+			<ColdBog>0.17</ColdBog>
+			<TemperateForest>0.15</TemperateForest>
+			<TemperateSwamp>0.17</TemperateSwamp>
+			<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.3</Scarlands>
+	  </wildBiomes>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <soundEating>Herbivore_Eat</soundEating>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.05)</li>
+        <li>(0.11, 0, -0.01)</li>
+        <li>(0.0, 0, -0.05)</li>
+        <li>(-0.11, 0, -0.01)</li>
+      </headPosPerRotation>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
+    </tradeTags>
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7.3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>FEB_Gutterhog</defName>
+    <label>gutterhog</label>
+    <race>FEB_Gutterhog</race>
+    <combatPower>45</combatPower>
+    <ecoSystemWeight>0.5</ecoSystemWeight>
+    <labelFemale>guttersow</labelFemale>
+    <lifeStages>
+      <li>
+        <label>gutterhog piglet</label>
+        <bodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Gutterhog_Baby</texPath>
+          <drawSize>0.6</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.25, 0.25)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Dessicated_gutterhog</texPath>
+          <drawSize>0.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Gutterhog_Baby</texPath>
+          <drawSize>1.15</drawSize>
+          <shadowData>
+            <volume>(0.375, 0.375, 0.375)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Animal/Gutterhog/Gutterhog</texPath>
+          <drawSize>1.15</drawSize>
+          <shadowData>
+            <volume>(0.375, 0.375, 0.375)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Dessicated_gutterhog</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Dessicated_gutterhog</texPath>
+          <drawSize>1.1</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Gutterhog</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.5, 0.5)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Animal/Gutterhog/Gutterhog</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.5, 0.4)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Dessicated_gutterhog</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Animal/Gutterhog/Dessicated_gutterhog</texPath>
+          <drawSize>1.6</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

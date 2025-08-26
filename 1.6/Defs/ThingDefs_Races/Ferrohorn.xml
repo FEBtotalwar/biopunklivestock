@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+ <ThingDef ParentName="AnimalThingBase">
+    <defName>FEB_Ferrohorn</defName>
+    <label>ferrohorn</label>
+    <description>A large bovine that was genetically modified to develop a layer of iron on it's horns and in the undercoat. Ferrohorns have a high appetite and do not produce digestable milk due to this expensive metabolic process. Prized for dense, but heavy wool and metallic iron that can be periodically scraped off of it's horns.</description>
+    <statBases>
+      <MoveSpeed>4.4</MoveSpeed>
+      <MarketValue>350</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>44</ComfyTemperatureMax>
+      <FilthRate>16</FilthRate>
+      <Wildness>0.1</Wildness>
+    </statBases>
+    <uiIconScale>1.25</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>FEB_ferrowool</woolDef>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>90</woolAmount>
+      </li>
+	  <li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
+		<resourceDef>Steel</resourceDef>
+		<gatheringIntervalDays>3</gatheringIntervalDays>
+		<resourceAmount>30</resourceAmount>
+		<customResourceString>FEB_SteelScrapeDesc</customResourceString>
+	  </li>
+    </comps>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>QuadrupedAnimalWithHooves</body>
+      <baseBodySize>2.4</baseBodySize>
+      <baseHealthScale>1.75</baseHealthScale>
+      <baseHungerRate>0.85</baseHungerRate>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <gestationPeriodDays>6.66</gestationPeriodDays>
+      <roamMtbDays>2</roamMtbDays>
+      <trainability>None</trainability>
+      <packAnimal>true</packAnimal>
+      <lifeExpectancy>15</lifeExpectancy>
+      <manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3333</minAge>
+          <soundWounded>Pawn_Bison_Wounded</soundWounded>
+          <soundDeath>Pawn_Bison_Death</soundDeath>
+          <soundCall>Pawn_Bison_Call</soundCall>
+          <soundAngry>Pawn_Bison_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+	  <wildBiomes>
+				<BorealForest>0.35</BorealForest>
+				<Tundra>0.25</Tundra>
+				<TemperateForest>0.35</TemperateForest>
+				<AridShrubland>0.2</AridShrubland>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.5</Grasslands>
+	  </wildBiomes>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <soundEating>Herbivore_Eat</soundEating>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.05)</li>
+        <li>(0.285, 0, 0.02)</li>
+        <li>(0.0, 0, -0.12)</li>
+        <li>(-0.285, 0, 0.02)</li>
+      </headPosPerRotation>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
+    </tradeTags>
+    <tools>
+	   <li>
+        <label>horns</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.9</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.9</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left hoof</label>
+        <labelNoLocation>hoof</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <labelNoLocation>hoof</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <PawnKindDef Name="Ferrohorn" ParentName="AnimalKindBase">
+    <defName>FEB_Ferrohorn</defName>
+    <label>ferrohorn</label>
+    <labelPlural>ferrohorn</labelPlural>
+    <race>FEB_Ferrohorn</race>
+    <combatPower>100</combatPower>
+    <ecoSystemWeight>0.6</ecoSystemWeight>
+    <wildGroupSize>3~9</wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>ferrohorn calf</label>
+        <labelPlural>ferrohorn calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Ferrohorn_Baby</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<femaleGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Ferrohorn_Baby</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Dessicated_ferrohornFem</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+		<femaleDessicatedBodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Dessicated_ferrohornFem</texPath>
+          <drawSize>1.5</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Ferrohorn_Baby</texPath>
+          <drawSize>2.25</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<femaleGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Ferrohorn_Baby</texPath>
+          <drawSize>2.25</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Dessicated_ferrohornFem</texPath>
+          <drawSize>2.25</drawSize>
+        </dessicatedBodyGraphicData>
+		<femaleDessicatedBodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Dessicated_ferrohornFem</texPath>
+          <drawSize>2.25</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Ferrohorn</texPath>
+          <drawSize>3.3</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+				<femaleGraphicData>
+          <texPath>Things/Animal/Ferrohorn/FerrohornFem</texPath>
+          <drawSize>3.3</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Dessicated_ferrohorn</texPath>
+          <drawSize>3.3</drawSize>
+        </dessicatedBodyGraphicData>
+		<femaleDessicatedBodyGraphicData>
+          <texPath>Things/Animal/Ferrohorn/Dessicated_ferrohornFem</texPath>
+          <drawSize>3.3</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

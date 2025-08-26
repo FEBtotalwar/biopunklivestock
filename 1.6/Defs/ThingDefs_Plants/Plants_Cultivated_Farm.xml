@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="PlantBase">
+    <defName>FEB_Plant_Wiltgrass</defName>
+    <label>wiltgrass</label>
+    <description>An assortment of toxin-accumulating grasses that only grow on polluted soil. Yields little hay when harvested, but grows quickly and is a decent source of food for certain animals.</description>
+    <statBases>
+      <MaxHitPoints>55</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/Wiltgrass</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <fertilityMin>0.5</fertilityMin>
+	  <fertilitySensitivity>0.3</fertilitySensitivity>
+	  <growDays>4</growDays>
+      <immatureGraphicPath>Things/Plants/Wiltgrass_Immature</immatureGraphicPath>
+	  <sowWork>250</sowWork>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+	  <pollution>PollutedOnly</pollution>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.6~0.8</visualSizeRange>
+	  <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+</Defs>

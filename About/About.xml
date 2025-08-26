@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>FEB's Biopunk Livestock</name>
+  <author>FEB</author>
+  <packageId>feb.biopunklivestock</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Feral and domestic animals bio-engineered for industrial (and post-apocalyptic) uses.</description>
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+	  <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </loadAfter>
+</ModMetaData>
