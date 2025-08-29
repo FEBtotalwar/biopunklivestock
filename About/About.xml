@@ -6,7 +6,13 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>Feral and domestic animals bio-engineered for industrial (and post-apocalyptic) uses.</description>
+  <description>Feral and domestic animals bio-engineered for industrial (and post-apocalyptic) uses.
+v 1.1 
+- Integration with some mods that add toxic plants;
+- If VAE — Waste Animals is installed, Leadbelly and Toxoga yield toxic meat and toxic leather;	
+- Added a more subtle audio effect when Leadbellies clean pollution;
+- Enabled Toxogas to give mood effects in caravans;
+- Increased the market value of cottonfoot rabbits.</description>
   <modDependencies>
     <li>
       <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
@@ -16,5 +22,6 @@
   </modDependencies>
   <loadAfter>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	<li>VanillaExpanded.VAEWaste</li>
   </loadAfter>
 </ModMetaData>

@@ -76,8 +76,8 @@
       <baseBodySize>1</baseBodySize>
       <baseHungerRate>1.5</baseHungerRate>
       <baseHealthScale>0.6</baseHealthScale>
-      <leatherDef>Leather_Plain</leatherDef>
-	  <meatLabel>toxoga meat</meatLabel>
+      <leatherDef>VAEWaste_ToxicLeather</leatherDef>
+	  <specificMeatDef>VAEWaste_ToxicMeat</specificMeatDef>
 	  <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
       <gestationPeriodDays>10</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
