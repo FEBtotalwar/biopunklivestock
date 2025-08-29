@@ -8,6 +8,7 @@
 	<statBases>
 	  <FilthRate>4</FilthRate>
       <Wildness>0.25</Wildness>
+	  <MarketValue>150</MarketValue>
 	  <ImmunityGainSpeed>0.70</ImmunityGainSpeed>
 	</statBases>
 	<comps>

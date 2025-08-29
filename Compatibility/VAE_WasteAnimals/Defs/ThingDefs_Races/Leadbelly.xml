@@ -80,8 +80,8 @@
       <baseHungerRate>0.535</baseHungerRate>
       <baseHealthScale>1.5</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherDef>Leather_Plain</leatherDef>
-	  <meatLabel>leadbelly beef</meatLabel>
+      <leatherDef>VAEWaste_ToxicLeather</leatherDef>
+	  <specificMeatDef>VAEWaste_ToxicMeat</specificMeatDef>
       <roamMtbDays>2</roamMtbDays>
       <trainability>None</trainability>
       <gestationPeriodDays>6.66</gestationPeriodDays>
