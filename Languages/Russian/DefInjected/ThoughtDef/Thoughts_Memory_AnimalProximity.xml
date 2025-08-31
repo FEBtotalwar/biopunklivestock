@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FEB_ToxogaThoughtPositive.stages.0.label>рядом с токсогой</FEB_ToxogaThoughtPositive.stages.0.label>
+  <FEB_ToxogaThoughtPositive.stages.0.description>Бедное создание. Я должен быть сильным, если хочу помочь.</FEB_ToxogaThoughtPositive.stages.0.description>
+
+  <FEB_ToxogaThoughtNeutral.stages.0.label>рядом с токсогой</FEB_ToxogaThoughtNeutral.stages.0.label>
+  <FEB_ToxogaThoughtNeutral.stages.0.description>Хорошо, что нам удалось сохранить её живой и в безопасности.</FEB_ToxogaThoughtNeutral.stages.0.description>
+
+  <FEB_ToxogaThoughtNegative.stages.0.label>рядом с токсогой</FEB_ToxogaThoughtNegative.stages.0.label>
+  <FEB_ToxogaThoughtNegative.stages.0.description>Это создание пугает меня! Уберите его от меня!</FEB_ToxogaThoughtNegative.stages.0.description>
+
+</LanguageData>

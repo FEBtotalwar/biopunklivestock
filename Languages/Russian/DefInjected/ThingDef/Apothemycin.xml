@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FEB_Apothemycin.label>апотемицин</FEB_Apothemycin.label>
+  <FEB_Apothemycin.description>Молоко апотеки, ценящееся за иммуномодулирующие и антибиотические свойства. Приём дважды в день защищает от большинства распространённых инфекционных болезней.</FEB_Apothemycin.description>
+
+  <FEB_ApothemycinHigh.label>апотемицин</FEB_ApothemycinHigh.label>
+  <FEB_ApothemycinHigh.description>Иммунитет к инфекционным заболеваниям, вызванный апотемицином. Действует недолго по сравнению с индустриальными аналогами и требует двукратного приёма в день.</FEB_ApothemycinHigh.description>
+
+</LanguageData>

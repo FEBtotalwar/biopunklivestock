@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FEB_GutMechanites.label>кишечные механиты</FEB_GutMechanites.label>
+  <FEB_GutMechanites.description>Полусогласованные механиты, обитающие в толстом кишечнике. Сильно снижают вероятность пищевых отравлений и помогают перерабатывать токсины, но вызывают значительные боли. Данный штамм был выделен из пищеварительного тракта животных, перерабатывающих токсины.</FEB_GutMechanites.description>
+
+  <FEB_ScariaNeurosa.label>невроса скарии</FEB_ScariaNeurosa.label>
+  <FEB_ScariaNeurosa.description>Скрытая инфекция скарии, локализованная в периферической нервной системе. Не передаётся и относительно безвредна, но вызывает сильные хронические боли.</FEB_ScariaNeurosa.description>
+  <FEB_ScariaNeurosa.descriptionShort>Скрытая инфекция скарии. Не влияет на поведение, но вызывает боль.</FEB_ScariaNeurosa.descriptionShort>
+
+  <FEB_PsychicBondAnesthesia.label>анестезия от психической связи</FEB_PsychicBondAnesthesia.label>
+  <FEB_PsychicBondAnesthesia.description>Психическая анестезия, вызванная сильной связью с другим существом.</FEB_PsychicBondAnesthesia.description>
+
+</LanguageData>

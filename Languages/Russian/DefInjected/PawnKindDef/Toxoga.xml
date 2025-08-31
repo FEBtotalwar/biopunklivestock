@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- It should be amphibious with PF. -->
+
+ <FEB_Toxoga.label>токсога</FEB_Toxoga.label>
+  <FEB_Toxoga.labelPlural>токсоги</FEB_Toxoga.labelPlural>
+  <FEB_Toxoga.labelMale>самец токсоги</FEB_Toxoga.labelMale>
+  <FEB_Toxoga.labelMalePlural>самцы токсоги</FEB_Toxoga.labelMalePlural>
+  <FEB_Toxoga.labelFemale>самка токсоги</FEB_Toxoga.labelFemale>
+  <FEB_Toxoga.labelFemalePlural>самки токсоги</FEB_Toxoga.labelFemalePlural>
+  <FEB_Toxoga.description>Смутно млекопитающе-подобное существо с хаотичным генетическим набором. Токсога питается мусором и страдает скрытой врождённой формой скарии. Это хилое, но очень смышлёное создание вызывает смешанные чувства - одни ею восхищаются, другие сторонятся.</FEB_Toxoga.description>
+
+  <FEB_Toxoga.lifeStages.0.label>токсога</FEB_Toxoga.lifeStages.0.label>
+  <FEB_Toxoga.lifeStages.0.labelPlural>токсоги</FEB_Toxoga.lifeStages.0.labelPlural>
+  <FEB_Toxoga.lifeStages.1.label>токсога</FEB_Toxoga.lifeStages.1.label>
+  <FEB_Toxoga.lifeStages.1.labelPlural>токсоги</FEB_Toxoga.lifeStages.1.labelPlural>
+  <FEB_Toxoga.lifeStages.2.label>токсога</FEB_Toxoga.lifeStages.2.label>
+  <FEB_Toxoga.lifeStages.2.labelPlural>токсоги</FEB_Toxoga.lifeStages.2.labelPlural>
+
+
+</LanguageData>
