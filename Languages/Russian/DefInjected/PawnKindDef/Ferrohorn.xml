@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- It should be amphibious with PF. -->
+
+  <FEB_Ferrohorn.label>ферророг</FEB_Ferrohorn.label>
+  <FEB_Ferrohorn.labelPlural>ферророги</FEB_Ferrohorn.labelPlural>
+  <FEB_Ferrohorn.labelMale>самец ферророга</FEB_Ferrohorn.labelMale>
+  <FEB_Ferrohorn.labelMalePlural>самцы ферророга</FEB_Ferrohorn.labelMalePlural>
+  <FEB_Ferrohorn.labelFemale>самка ферророга</FEB_Ferrohorn.labelFemale>
+  <FEB_Ferrohorn.labelFemalePlural>самки ферророга</FEB_Ferrohorn.labelFemalePlural>
+  <FEB_Ferrohorn.description>Крупный бык, генетически модифицированный для отложения слоя железа на рогах и в подпуши. Ферророги прожорливы и не дают пригодного к употреблению молока из-за дорогого метаболизма. Ценятся за плотную, но тяжёлую шерсть и металлическое железо, которое периодически соскребают с рогов.</FEB_Ferrohorn.description>
+
+  <FEB_Ferrohorn.lifeStages.0.label>детёныш ферророга</FEB_Ferrohorn.lifeStages.0.label>
+  <FEB_Ferrohorn.lifeStages.0.labelPlural>детёныши ферророга</FEB_Ferrohorn.lifeStages.0.labelPlural>
+  <FEB_Ferrohorn.lifeStages.1.label>молодой ферророг</FEB_Ferrohorn.lifeStages.1.label>
+  <FEB_Ferrohorn.lifeStages.1.labelPlural>молодые ферророги</FEB_Ferrohorn.lifeStages.1.labelPlural>
+  <FEB_Ferrohorn.lifeStages.2.label>ферророг</FEB_Ferrohorn.lifeStages.2.label>
+  <FEB_Ferrohorn.lifeStages.2.labelPlural>ферророги</FEB_Ferrohorn.lifeStages.2.labelPlural>
+
+  <!-- Отдельные подписи из PawnKindDef Ferrohorn -->
+  <Ferrohorn.lifeStages.0.label>теленок ферророга</Ferrohorn.lifeStages.0.label>
+  <Ferrohorn.lifeStages.0.labelPlural>телята ферророга</Ferrohorn.lifeStages.0.labelPlural>
+
+  <!-- Служебные строки продукта -->
+  <FEB_SteelScrapeDesc>соскоб железа с рогов</FEB_SteelScrapeDesc>
+
+
+</LanguageData>

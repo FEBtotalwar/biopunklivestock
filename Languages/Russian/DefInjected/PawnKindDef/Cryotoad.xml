@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- It should be amphibious with PF. -->
+
+ <FEB_CryoToad.label>криожаба</FEB_CryoToad.label>
+  <FEB_CryoToad.labelPlural>криожабы</FEB_CryoToad.labelPlural>
+  <FEB_CryoToad.labelMale>самец криожабы</FEB_CryoToad.labelMale>
+  <FEB_CryoToad.labelMalePlural>самцы криожабы</FEB_CryoToad.labelMalePlural>
+  <FEB_CryoToad.labelFemale>самка криожабы</FEB_CryoToad.labelFemale>
+  <FEB_CryoToad.labelFemalePlural>самки криожабы</FEB_CryoToad.labelFemalePlural>
+  <FEB_CryoToad.description>Сильно модифицированная гигантская жаба. Сложные метаболические процессы заставляют её поглощать тепло из окружающих предметов. Криожабы процветают в прохладных лесных биомах; иногда допромышленные общины держат их в домах для охлаждения пищи. В неволе требуют регулярного потребления психита.</FEB_CryoToad.description>
+
+  <FEB_CryoToad.lifeStages.0.label>криожаба</FEB_CryoToad.lifeStages.0.label>
+  <FEB_CryoToad.lifeStages.0.labelPlural>криожабы</FEB_CryoToad.lifeStages.0.labelPlural>
+  <FEB_CryoToad.lifeStages.1.label>криожаба</FEB_CryoToad.lifeStages.1.label>
+  <FEB_CryoToad.lifeStages.1.labelPlural>криожабы</FEB_CryoToad.lifeStages.1.labelPlural>
+  <FEB_CryoToad.lifeStages.2.label>криожаба</FEB_CryoToad.lifeStages.2.label>
+  <FEB_CryoToad.lifeStages.2.labelPlural>криожабы</FEB_CryoToad.lifeStages.2.labelPlural>
+
+
+</LanguageData>

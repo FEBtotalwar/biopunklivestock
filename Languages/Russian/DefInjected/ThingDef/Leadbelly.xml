@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- It should be amphibious with PF. -->
+
+<FEB_Leadbelly.label>свинцобрюхая корова</FEB_Leadbelly.label>
+  <FEB_Leadbelly.labelPlural>свинцобрюхие коровы</FEB_Leadbelly.labelPlural>
+  <FEB_Leadbelly.labelMale>свинцобрюхий бык</FEB_Leadbelly.labelMale>
+  <FEB_Leadbelly.labelMalePlural>свинцобрюхие быки</FEB_Leadbelly.labelMalePlural>
+  <FEB_Leadbelly.labelFemale>свинцобрюхая корова</FEB_Leadbelly.labelFemale>
+  <FEB_Leadbelly.labelFemalePlural>свинцобрюхие коровы</FEB_Leadbelly.labelFemalePlural>
+  <FEB_Leadbelly.description>Сильно модифицированная порода домашнего скота, приспособленная к токсичной среде. Специализированный пищеварительный тракт в сочетании с наследственными кишечными механитами помогает свинцобрюхам снижать окружающую токсичность. Поглощённые вещества затем отрыгиваются и уплотняются, образуя небольшое количество токсостекла, ценимого за красоту. К сожалению, рацион свинцобрюхов ограничен живыми растениями, растущими в загрязнённых районах. У смотрителей есть небольшой шанс подхватить кишечных механитов.</FEB_Leadbelly.description>
+
+  <FEB_Leadbelly.lifeStages.0.label>свинцобрюхий телёнок</FEB_Leadbelly.lifeStages.0.label>
+  <FEB_Leadbelly.lifeStages.0.labelPlural>свинцобрюхие телята</FEB_Leadbelly.lifeStages.0.labelPlural>
+  <FEB_Leadbelly.lifeStages.1.label>свинцобрюхая корова</FEB_Leadbelly.lifeStages.1.label>
+  <FEB_Leadbelly.lifeStages.1.labelPlural>свинцобрюхие коровы</FEB_Leadbelly.lifeStages.1.labelPlural>
+  <FEB_Leadbelly.lifeStages.2.label>свинцобрюхая корова</FEB_Leadbelly.lifeStages.2.label>
+  <FEB_Leadbelly.lifeStages.2.labelPlural>свинцобрюхие коровы</FEB_Leadbelly.lifeStages.2.labelPlural>
+
+  <!-- Leadbelly: кастомная строка продукта -->
+  <FEB_ToxglassDesc>вырабатывает токсостекло</FEB_ToxglassDesc>
+
+
+</LanguageData>
