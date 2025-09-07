@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- It should be amphibious with PF. -->
+
+  <FEB_Apotheca.label>апотека</FEB_Apotheca.label>
+  <FEB_Apotheca.labelPlural>апотеки</FEB_Apotheca.labelPlural>
+  <FEB_Apotheca.labelMale>самец апотеки</FEB_Apotheca.labelMale>
+  <FEB_Apotheca.labelMalePlural>самцы апотеки</FEB_Apotheca.labelMalePlural>
+  <FEB_Apotheca.labelFemale>самка апотеки</FEB_Apotheca.labelFemale>
+  <FEB_Apotheca.labelFemalePlural>самки апотеки</FEB_Apotheca.labelFemalePlural>
+  <FEB_Apotheca.description>Хрупкая апотека родом с почти стерильного мира холодных пляжей и ветреных равнин — санатория для людей с ослабленным иммунитетом. Её молоко обладает сильными антибиотическими свойствами. Апотеки особенно уязвимы для обычных болезней и инфекций домашнего скота.</FEB_Apotheca.description>
+
+  <FEB_Apotheca.lifeStages.0.label>апотека</FEB_Apotheca.lifeStages.0.label>
+  <FEB_Apotheca.lifeStages.0.labelPlural>апотеки</FEB_Apotheca.lifeStages.0.labelPlural>
+  <FEB_Apotheca.lifeStages.1.label>апотека</FEB_Apotheca.lifeStages.1.label>
+  <FEB_Apotheca.lifeStages.1.labelPlural>апотеки</FEB_Apotheca.lifeStages.1.labelPlural>
+  <FEB_Apotheca.lifeStages.2.label>апотека</FEB_Apotheca.lifeStages.2.label>
+  <FEB_Apotheca.lifeStages.2.labelPlural>апотеки</FEB_Apotheca.lifeStages.2.labelPlural>
+
+  <!-- Служебные строки продукта -->
+  <FEB_ApothemycinMilkDesc>апофемицин (молоко)</FEB_ApothemycinMilkDesc>
+
+
+</LanguageData>

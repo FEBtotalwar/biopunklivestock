@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- It should be amphibious with PF. -->
+
+  <FEB_Cottonfoot.label>пухоног</FEB_Cottonfoot.label>
+  <FEB_Cottonfoot.labelPlural>пухоноги</FEB_Cottonfoot.labelPlural>
+  <FEB_Cottonfoot.labelMale>самец пухонога</FEB_Cottonfoot.labelMale>
+  <FEB_Cottonfoot.labelMalePlural>самцы пухонога</FEB_Cottonfoot.labelMalePlural>
+  <FEB_Cottonfoot.labelFemale>самка пухонога</FEB_Cottonfoot.labelFemale>
+  <FEB_Cottonfoot.labelFemalePlural>самки пухонога</FEB_Cottonfoot.labelFemalePlural>
+  <FEB_Cottonfoot.description>Крайне редкая порода домашних кроликов с ослабленной иммунной системой. Эти животные дают маты особенно мягкого пуха, который легко прядётся в ткань, сопоставимую по качеству с растительными аналогами.</FEB_Cottonfoot.description>
+
+  <FEB_Cottonfoot.lifeStages.0.label>пухоног</FEB_Cottonfoot.lifeStages.0.label>
+  <FEB_Cottonfoot.lifeStages.0.labelPlural>пухоноги</FEB_Cottonfoot.lifeStages.0.labelPlural>
+  <FEB_Cottonfoot.lifeStages.1.label>пухоног</FEB_Cottonfoot.lifeStages.1.label>
+  <FEB_Cottonfoot.lifeStages.1.labelPlural>пухоноги</FEB_Cottonfoot.lifeStages.1.labelPlural>
+  <FEB_Cottonfoot.lifeStages.2.label>пухоног</FEB_Cottonfoot.lifeStages.2.label>
+  <FEB_Cottonfoot.lifeStages.2.labelPlural>пухоноги</FEB_Cottonfoot.lifeStages.2.labelPlural>
+
+  <!-- Служебные строки продукта -->
+  <FEB_CottonfootClothDesc>собираем пух</FEB_CottonfootClothDesc>
+
+
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- It should be amphibious with PF. -->
+
+  <FEB_Gutterhog.label>канавосвин</FEB_Gutterhog.label>
+  <FEB_Gutterhog.labelPlural>канавосвины</FEB_Gutterhog.labelPlural>
+  <FEB_Gutterhog.labelMale>самец канавосвина</FEB_Gutterhog.labelMale>
+  <FEB_Gutterhog.labelMalePlural>самцы канавосвина</FEB_Gutterhog.labelMalePlural>
+  <FEB_Gutterhog.labelFemale>канавосвиноматка</FEB_Gutterhog.labelFemale>
+  <FEB_Gutterhog.labelFemalePlural>канавосвиноматки</FEB_Gutterhog.labelFemalePlural>
+  <FEB_Gutterhog.description>Изначально канавосвинов выводили для расчистки минных полей и поиска неразорвавшихся боеприпасов. Большинство с тех пор одичало, но животные всё ещё одержимо выкапывают металлические предметы. Из-за этого тянутся к руинам и популярны у мусорщиков как питомцы.</FEB_Gutterhog.description>
+
+  <FEB_Gutterhog.lifeStages.0.label>поросёнок канавосвина</FEB_Gutterhog.lifeStages.0.label>
+  <FEB_Gutterhog.lifeStages.0.labelPlural>поросята канавосвина</FEB_Gutterhog.lifeStages.0.labelPlural>
+  <FEB_Gutterhog.lifeStages.1.label>канавосвин</FEB_Gutterhog.lifeStages.1.label>
+  <FEB_Gutterhog.lifeStages.1.labelPlural>канавосвины</FEB_Gutterhog.lifeStages.1.labelPlural>
+  <FEB_Gutterhog.lifeStages.2.label>канавосвин</FEB_Gutterhog.lifeStages.2.label>
+  <FEB_Gutterhog.lifeStages.2.labelPlural>канавосвины</FEB_Gutterhog.lifeStages.2.labelPlural>
+
+
+</LanguageData>
