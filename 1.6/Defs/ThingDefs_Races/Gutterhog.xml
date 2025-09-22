@@ -48,6 +48,7 @@
 				<li>1</li>
 			</customAmountToDig>
 			<ticksToDig>60000</ticksToDig>
+			<onlyWhenTamed>true</onlyWhenTamed>
 		</li>
 	</comps>
     <race>
@@ -214,4 +215,5 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+
 </Defs>
