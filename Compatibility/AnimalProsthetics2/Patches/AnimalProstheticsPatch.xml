@@ -19,7 +19,7 @@
 			]/recipeUsers</xpath>
 		<value>
 			<li>FEB_Ferrohorn</li>
-			<li>FEB_Leadbelly</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">FEB_Leadbelly</li>
 			<li>FEB_Apotheca</li>
 		</value>
 	</Operation>
@@ -34,4 +34,5 @@
 			<li>FEB_Gutterhog</li>
 		</value>
 	</Operation>
+
 </Patch>
