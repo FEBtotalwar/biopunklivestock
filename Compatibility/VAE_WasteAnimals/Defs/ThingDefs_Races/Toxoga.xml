@@ -4,7 +4,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>FEB_Toxoga</defName>
     <label>toxoga</label>
-    <description>A vaguely mammalian creature with chaotic genetic makeup. The toxoga subsists on garbage and suffers from a latent, congenital form of scaria. This creature is sickly yet fiersly intelligent and may cause polarizing reactions in some people.</description>
+    <description>A vaguely mammalian creature with chaotic genetic makeup. The toxoga subsists on garbage and suffers from a latent, congenital form of scaria. This creature is sickly yet fiercely intelligent and may cause polarizing reactions in some people.</description>
     <statBases>
       <MoveSpeed>4.1</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>

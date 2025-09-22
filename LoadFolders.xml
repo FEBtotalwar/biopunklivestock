@@ -4,7 +4,8 @@
     <v1.6>
         <li>/</li>
         <li>1.6</li>
-        <li IfModActive="VanillaExpanded.VAEWaste" >Compatibility\VAE_WasteAnimals</li>
+        <li IfModActive="VanillaExpanded.VAEWaste" >Compatibility/VAE_WasteAnimals</li>
+		<li IfModActive="SamBucher.ADogSaidAnimalProsthetics2" >Compatibility/AnimalProsthetics2</li>
     </v1.6>
     
 </loadFolders>
