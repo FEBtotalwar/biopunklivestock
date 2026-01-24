@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Wild animal destribution -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName = "Grasslands"]/pollutionWildAnimals</xpath>
+				  <value>
+					<FEB_Leadbelly>0.3</FEB_Leadbelly>
+					<FEB_Toxoga>0.15</FEB_Toxoga>
+				  </value>
+			</li>		
+		</operations>
+	</Operation>	
+</Patch>

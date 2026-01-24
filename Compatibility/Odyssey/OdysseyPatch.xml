@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Caravan animals -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="Grasslands"]/allowedPackAnimals</xpath>
+				<value>
+					<li>FEB_Ferrohorn</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="Scarlands"]/allowedPackAnimals</xpath>
+				<value>
+					<li>FEB_Ferrohorn</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/BiomeDef[defName="Glowforest"]/allowedPackAnimals</xpath>
+				<value>
+					<li>FEB_Ferrohorn</li>
+				</value>
+			</li>		
+		</operations>
+	</Operation>	
+</Patch>
